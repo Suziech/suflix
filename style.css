@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 
-.bold {
+.emphasis {
     font-size: 1.3rem;
 }
 
@@ -202,16 +202,19 @@ body {
     position: relative;
 }
 
+.label2 {
+    z-index: 99;
+}
+
 .question > span {
     position: absolute;
     right: 2rem;
     font-size: 1.5rem;
 }
 
-/* .clickButton {
-    position: absolute;
-    left: -100vw;
-} */
+.clickButton {
+    display: none;
+}
 
 .box {
     display: none;
@@ -223,6 +226,30 @@ body {
     margin-bottom: 1rem;
 }
 #trigger:checked + .box {
+    display: block;
+}
+
+#trigger1:checked + .box {
+    display: block;
+}
+
+#trigger2:checked + .box {
+    display: block;
+}
+
+#trigger3:checked + .box {
+    display: block;
+}
+
+#trigger4:checked + .box {
+    display: block;
+}
+
+#trigger5:checked + .box {
+    display: block;
+}
+
+#trigger6:checked + .box {
     display: block;
 }
 
