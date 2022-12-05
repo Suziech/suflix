@@ -196,6 +196,7 @@ body {
 .question {
     background-color: #303030;
     padding: 1rem;
+    margin: 0.4rem 0;
     width: 50rem;
     font-size: 1.5rem;
     border: 1px solid black;
