@@ -1,0 +1,265 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+#header {
+    height: 8.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.attention {
+    width: 35px;
+    color: #fff;
+    background-color: #e50914;
+    font-size: 0.8rem;
+    border-radius: 17px;
+    margin: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bold {
+    font-size: 1.3rem;
+}
+
+.detailButton {
+    display: flex;
+    align-items: end;
+    margin-left: 2rem;
+    background: none;
+    color: rgb(43, 127, 237);
+    font-weight: 700;
+    border: none;
+    font-size: 1rem;
+}
+
+#main1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+        url(https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3.5rem;
+    background-color: transparent;
+}
+
+.logo {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #e50914;
+}
+
+.navRight {
+    display: flex;
+    justify-content: space-between;
+    width: 11.5rem;
+}
+
+.selectLanguage {
+    width: 95px;
+    height: 38px;
+    white-space: nowrap;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+
+    /* Arrow */
+    appearance: none;
+    background-image: url("./images/drop-down-arrow.png");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 0.65rem auto;
+}
+
+.loginButton {
+    background-color: #e50914;
+    border: none;
+    border-radius: 3px;
+    width: 73px;
+    height: 38px;
+    color: white;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.main1ArticleWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+    padding: 0;
+    color: white;
+}
+
+.main1Title {
+    font-size: 3.125rem;
+    margin: 1rem;
+}
+
+.main1Content1 {
+    font-size: 1.625rem;
+    margin: 1rem;
+}
+
+.main1Content2 {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.main1ButtonInputWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main1Input {
+    width: 29rem;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    text-indent: 0.5rem;
+}
+
+.main1Button {
+    width: 10rem;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0;
+    width: 10rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.line {
+    height: 0.55rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.84);
+}
+
+#main2,
+#main3,
+#main4,
+#main5 {
+    height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainTitle {
+    font-size: 3rem;
+}
+
+.mainArticle {
+    font-size: 1.7rem;
+}
+
+#main6 {
+    height: 100%;
+    padding-bottom: 5rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.question {
+    background-color: #303030;
+    padding: 1rem;
+    width: 50rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    position: relative;
+}
+
+.question > span {
+    position: absolute;
+    right: 2rem;
+    font-size: 1.5rem;
+}
+
+/* .clickButton {
+    position: absolute;
+    left: -100vw;
+} */
+
+.box {
+    display: none;
+    background: #303030;
+    padding: 1rem;
+    width: 50rem;
+    height: 10rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#trigger:checked + .box {
+    display: block;
+}
+
+#footer {
+    height: 100%;
+    background-color: black;
+    color: rgba(239, 239, 240, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+.footerContext {
+    width: 60%;
+    padding: 3.5rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerSelect {
+    display: block;
+    margin: 2.5rem 0;
+    width: 7.5rem;
+    height: 3rem;
+    border-radius: 1px;
+}
+
+.footerTitle {
+    display: block;
+    padding-bottom: 1.5rem;
+}
