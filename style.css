@@ -299,17 +299,16 @@ body {
     }
 
     .emphasis {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .detailButton {
         font-size: 0.8rem;
-        width: 6.8rem;
-        padding-top: 1rem;
+        width: 10rem;
     }
 
     .navbar {
@@ -326,7 +325,7 @@ body {
 
     .selectLanguage {
         font-size: 0.7rem;
-        width: 5rem;
+        width: 5.3rem;
     }
 
     .loginButton {
