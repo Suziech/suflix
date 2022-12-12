@@ -313,7 +313,7 @@ body {
     }
 
     .navbar {
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
     }
 
     .logo {
@@ -337,6 +337,17 @@ body {
     .main1Title {
         font-size: 1.7rem;
         margin: 1rem;
+        text-align: center;
+    }
+
+    .main1Content1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .main1Content2 {
+        font-size: 1rem;
+        text-align: center;
     }
 
     .main1Input {
